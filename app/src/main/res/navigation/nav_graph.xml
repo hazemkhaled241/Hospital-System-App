@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/splash1">
+    app:startDestination="@id/loginFragment">
 
     <fragment
         android:id="@+id/splash1"
@@ -19,4 +19,14 @@
         android:name="com.example.medical.intro.splash2"
         android:label="fragment_splash2"
         tools:layout="@layout/fragment_splash2" />
+    <fragment
+        android:id="@+id/cancelRequestFragment2"
+        android:name="com.example.medical.receptionist.cancelRequestFragment"
+        android:label="fragment_cancell_request"
+        tools:layout="@layout/fragment_cancell_request" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.medical.intro.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
 </navigation>
