@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1365" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/cursor_2.xml" value="0.1" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/group_4460.xml" value="0.1435" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1365" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/iv_download.xml" value="0.1295" />
@@ -18,9 +19,10 @@
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/rectangle2.xml" value="0.1365" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/activity_main.xml" value="0.15185185185185185" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_cancell_request.xml" value="0.20364583333333333" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_login.xml" value="0.2" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_splash1.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_splash2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_splash1.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_splash2.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_start_up.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
