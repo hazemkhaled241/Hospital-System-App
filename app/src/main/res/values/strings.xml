@@ -9,13 +9,15 @@
     <string name="login">Login</string>
     <string name="phone_number">Phone Number</string>
     <string name="password">Password</string>
-    <string name="doctor" ><font fgcolor="#22C7B8">Doctor</font></string>
-    <string name="nurse" ><font fgcolor="#22C7B8">Nurse</font></string>
-    <string name="analysis_employee" ><font fgcolor="#22C7B8">Analysis Employee</font></string>
-    <string name="receptionist" ><font fgcolor="#22C7B8">Receptionist</font></string>
-    <string name="manager" ><font fgcolor="#22C7B8">Manager</font></string>
-    <string name="hr" ><font fgcolor="#22C7B8">HR</font></string>
-    <string name="prototype_map" ><font fgcolor="#22C7B8">Prototype Map</font></string>
+    <string name="doctor"><font fgcolor="#22C7B8">Doctor</font></string>
+    <string name="nurse"><font fgcolor="#22C7B8">Nurse</font></string>
+    <string name="analysis_employee"><font fgcolor="#22C7B8">Analysis Employee</font></string>
+    <string name="receptionist"><font fgcolor="#22C7B8">Receptionist</font></string>
+    <string name="manager"><font fgcolor="#22C7B8">Manager</font></string>
+    <string name="hr"><font fgcolor="#22C7B8">HR</font></string>
+    <string name="prototype_map"><font fgcolor="#22C7B8">Prototype Map</font></string>
     <string name="forget_password"><u>Forget Password ?</u></string>
+    <string name="select_doctor">Select Doctor</string>
+    <string name="search_for_doctor">Search For Doctor</string>
 
 </resources>
