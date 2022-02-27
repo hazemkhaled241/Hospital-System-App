@@ -39,4 +39,9 @@
         android:name="com.example.medical.receptionist.SelectDoctorFragment"
         android:label="fragment_select_doctor"
         tools:layout="@layout/fragment_select_doctor" />
+    <fragment
+        android:id="@+id/selectNurseFragment"
+        android:name="com.example.medical.RequestMedicalMeasurement.SelectNurseFragment"
+        android:label="fragment_select_nurse"
+        tools:layout="@layout/fragment_select_nurse" />
 </navigation>

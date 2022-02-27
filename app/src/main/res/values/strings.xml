@@ -18,6 +18,8 @@
     <string name="prototype_map"><font fgcolor="#22C7B8">Prototype Map</font></string>
     <string name="forget_password"><u>Forget Password ?</u></string>
     <string name="select_doctor">Select Doctor</string>
+    <string name="select_analysis_employee">Select Analysis employee</string>
     <string name="search_for_doctor">Search For Doctor</string>
+    <string name="search_for_analysis_employee">Search for Analysis employee</string>
 
 </resources>

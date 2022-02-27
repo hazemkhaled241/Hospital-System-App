@@ -4,16 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".receptionist.SelectDoctorFragment"
-
-    >
-
+    tools:context=".RequestMedicalMeasurement.SelectNurseFragment">
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
         android:layout_marginEnd="@dimen/_10sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,12 +33,13 @@ android:layout_marginStart="@dimen/_10sdp"
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_60sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_20sdp"
                 android:fontFamily="@font/poppins_regular"
                 android:padding="@dimen/_6sdp"
-                android:text="@string/select_doctor"
+                android:text="@string/search_for_analysis_employee"
                 android:textColor="@color/select_doctor_color"
-                android:textSize="@dimen/_16sdp" />
+                android:textSize="@dimen/_13sdp" />
 
         </LinearLayout>
 
@@ -50,7 +48,7 @@ android:layout_marginStart="@dimen/_10sdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_10sdp"
-            android:hint="@string/search_for_doctor"
+            android:hint="@string/search_for_analysis_employee"
             app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
             app:boxCornerRadiusBottomStart="@dimen/_8sdp"
             app:boxCornerRadiusTopEnd="@dimen/_8sdp"
@@ -108,5 +106,6 @@ android:layout_marginStart="@dimen/_10sdp"
 
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
