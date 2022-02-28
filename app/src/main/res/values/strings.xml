@@ -20,6 +20,10 @@
     <string name="select_doctor">Select Doctor</string>
     <string name="select_analysis_employee">Select Analysis employee</string>
     <string name="search_for_doctor">Search For Doctor</string>
+    <string name="calls"><font fgcolor="#FFFFFF">Calls</font></string>
+    <string name="tasks"><font fgcolor="#FFFFFF">Tasks</font></string>
+    <string name="reports"><font fgcolor="#FFFFFF">Reports</font></string>
+    <string name="attendance"><font fgcolor="#FFFFFF">attendance - leaving</font></string>
     <string name="search_for_analysis_employee">Search for Analysis employee</string>
 
 </resources>
