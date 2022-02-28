@@ -13,6 +13,7 @@
     <color name="tasks_color">#5FDC89</color>
     <color name="reports_color">#915FDC</color>
     <color name="attendance_color">#22C7B8</color>
+    <color name="cases_color">#DC915F</color>
     <color name="gray">#828282</color>#0000001F
     <color name="rectangle_login_color">#0000001F</color>
 
