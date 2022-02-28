@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/selectDoctorFragment">
+    app:startDestination="@id/receptionistFragment">
 
     <fragment
         android:id="@+id/splash1"
@@ -44,4 +44,9 @@
         android:name="com.example.medical.RequestMedicalMeasurement.SelectNurseFragment"
         android:label="fragment_select_nurse"
         tools:layout="@layout/fragment_select_nurse" />
+    <fragment
+        android:id="@+id/receptionistFragment"
+        android:name="com.example.medical.receptionist.ReceptionistFragment"
+        android:label="fragment_receptionist"
+        tools:layout="@layout/fragment_receptionist" />
 </navigation>
