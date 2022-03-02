@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/caseDetailsFragment">
+    app:startDestination="@id/touchIdSensorFragment">
 
     <fragment
         android:id="@+id/splash1"
@@ -64,4 +64,9 @@
         android:name="com.example.medical.receptionist.CaseDetailsFragment"
         android:label="fragment_case_details"
         tools:layout="@layout/fragment_case_details" />
+    <fragment
+        android:id="@+id/touchIdSensorFragment"
+        android:name="com.example.medical.AttendanceAndLeaving.TouchIdSensorFragment"
+        android:label="fragment_touch_id_sensor"
+        tools:layout="@layout/fragment_touch_id_sensor" />
 </navigation>

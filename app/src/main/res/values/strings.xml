@@ -30,6 +30,7 @@
     <string name="tasks"><font fgcolor="#FFFFFF">Tasks</font></string>
     <string name="reports"><font fgcolor="#FFFFFF">Reports</font></string>
     <string name="cases"><font fgcolor="#FFFFFF">Cases</font></string>
+    <string name="touch_id"><font fgcolor="#FFFFFF">Please touch ID sensor to verify registration</font></string>
     <string name="attendance"><font fgcolor="#FFFFFF">attendance - leaving</font></string>
     <string name="search_for_analysis_employee">Search for Analysis employee</string>
 
