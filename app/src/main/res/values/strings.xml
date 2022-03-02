@@ -22,6 +22,8 @@
     <string name="patient_name">Patient Name</string>
     <string name="age">Age</string>
     <string name="case_description">Case Description</string>
+    <string name="case_details">Case Details</string>
+    <string name="logout">Logout</string>
     <string name="select_analysis_employee">Select Analysis employee</string>
     <string name="search_for_doctor">Search For Doctor</string>
     <string name="calls"><font fgcolor="#FFFFFF">Calls</font></string>
