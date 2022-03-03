@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/_10sdp"
-
+        app:boxStrokeColor="@color/main"
         android:hint="@string/patient_name"
         app:boxCornerRadiusTopStart="@dimen/_8sdp"
         app:boxCornerRadiusTopEnd="@dimen/_8sdp"
@@ -67,7 +67,7 @@
         app:boxCornerRadiusTopEnd="@dimen/_8sdp"
         app:boxCornerRadiusBottomStart="@dimen/_8sdp"
         app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
-
+        app:boxStrokeColor="@color/main"
         >
 
         <com.google.android.material.textfield.TextInputEditText
@@ -91,7 +91,7 @@
         app:boxCornerRadiusTopEnd="@dimen/_8sdp"
         app:boxCornerRadiusBottomStart="@dimen/_8sdp"
         app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
-
+        app:boxStrokeColor="@color/main"
         >
 
         <com.google.android.material.textfield.TextInputEditText
@@ -115,7 +115,7 @@
         app:boxCornerRadiusTopEnd="@dimen/_8sdp"
         app:boxCornerRadiusBottomStart="@dimen/_8sdp"
         app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
-
+        app:boxStrokeColor="@color/main"
 
         >
 
@@ -142,7 +142,7 @@
         app:boxCornerRadiusBottomStart="@dimen/_8sdp"
         app:boxCornerRadiusBottomEnd="@dimen/_8sdp"
        android:paddingBottom="@dimen/_90sdp"
-
+        app:boxStrokeColor="@color/main"
         >
 
         <com.google.android.material.textfield.TextInputEditText
