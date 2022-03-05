@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/newUserFragment">
+    app:startDestination="@id/addMedicalRecordFragment">
 
     <fragment
         android:id="@+id/splash1"
@@ -84,4 +84,14 @@
         android:name="com.example.medical.HrEmployee.NewUserFragment"
         android:label="fragment_new_user"
         tools:layout="@layout/fragment_new_user" />
+    <fragment
+        android:id="@+id/employeeListFragment"
+        android:name="com.example.medical.HrEmployee.EmployeeListFragment"
+        android:label="fragment_employee_list"
+        tools:layout="@layout/fragment_employee_list" />
+    <fragment
+        android:id="@+id/addMedicalRecordFragment"
+        android:name="com.example.medical.AnalysisEmployee.AddMedicalRecordFragment"
+        android:label="fragment_add_medical_record"
+        tools:layout="@layout/fragment_add_medical_record" />
 </navigation>

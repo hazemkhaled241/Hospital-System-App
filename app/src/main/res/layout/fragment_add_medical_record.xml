@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AnalysisEmployee.AddMedicalRecordFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_15sdp"
+            android:src="@drawable/iv_back"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_35sdp"
+            android:fontFamily="@font/poppins_regular"
+            android:padding="@dimen/_6sdp"
+            android:text="@string/add_medical_record"
+            android:textColor="@color/select_doctor_color"
+            android:textSize="@dimen/_15sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/iv_test"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/_10sdp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingStart="@dimen/_4sdp"
+                android:text="Ebrahem Elzainy"
+                android:textColor="#343434"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:paddingStart="@dimen/_5sdp"
+                android:text="Specialist-Position"
+                android:textColor="#22C7B8"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:text="13 Mar 2020"
+            android:layout_marginBottom="@dimen/_10sdp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details note : Lorem Ipsum is simply dummy text of printing and typesetting industry.Lorem Ipsum"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginStart="@dimen/_23sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/_20sdp"
+        >
+       <com.google.android.material.button.MaterialButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/sgot_sgpt"
+           android:backgroundTint="@color/main"
+          android:padding="@dimen/_13sdp"
+          app:cornerRadius="@dimen/_5sdp"
+           />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/esr"
+            android:backgroundTint="@color/main"
+           android:paddingTop="@dimen/_13sdp"
+            android:paddingBottom="@dimen/_13sdp"
+            app:cornerRadius="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_7sdp"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lipid_profile"
+            android:backgroundTint="@color/main"
+            android:padding="@dimen/_13sdp"
+            app:cornerRadius="@dimen/_5sdp"
+
+            android:layout_marginStart="@dimen/_7sdp"
+            />
+
+
+    </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/add_medical_record"
+    android:fontFamily="@font/poppins_semibold"
+    android:textSize="@dimen/_14sdp"
+    android:textColor="@color/black"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/_8sdp"/>
+    <FrameLayout
+        android:id="@+id/container_with_dotted_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:background="@drawable/add_medical_record__frame"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_uplode_image"
+            android:layout_gravity="center"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            app:strokeColor="@color/main"
+            android:text="@string/upload_image"
+            android:drawableLeft="@drawable/iv_plus"
+            android:textColor="@color/main"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="@font/poppins_regular"
+           android:paddingStart="@dimen/_10sdp"
+            app:cornerRadius="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_7sdp"
+            android:paddingTop="@dimen/_7sdp"
+            />
+        </LinearLayout>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textAllCaps="false"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:text="@string/add_record"
+            app:cornerRadius="@dimen/_7sdp"
+            android:padding="@dimen/_13sdp"
+            android:backgroundTint="@color/main"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

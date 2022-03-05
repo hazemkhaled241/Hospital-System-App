@@ -45,5 +45,11 @@
     <string name="attendance"><font fgcolor="#FFFFFF">attendance - leaving</font></string>
     <string name="search_for_analysis_employee">Search for Analysis employee</string>
     <string name="employee">Employee</string>
+    <string name="add_medical_record">Add medical record</string>
+    <string name="sgot_sgpt">SGOT,SGPT</string>
+    <string name="esr">ESR</string>
+    <string name="lipid_profile">Lipid profile</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="add_record">Add record</string>
 
 </resources>
