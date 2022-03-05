@@ -99,4 +99,9 @@
         android:name="com.example.medical.AnalysisEmployee.CaseDetailsAEFragment"
         android:label="fragment_case"
         tools:layout="@layout/fragment_case" />
+    <fragment
+        android:id="@+id/specialistAEFragment"
+        android:name="com.example.medical.AnalysisEmployee.SpecialistAEFragment"
+        android:label="fragment_specialist_a_e"
+        tools:layout="@layout/fragment_specialist_a_e" />
 </navigation>

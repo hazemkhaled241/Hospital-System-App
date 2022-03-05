@@ -56,5 +56,7 @@
     <string name="you_have_request">You have request</string>
     <string name="you_have_new_request">You have a new request from the doctor, please  follow up and implement the request as soon as  possible</string>
     <string name="show_details">Show Details</string>
+    <string name="requests">Requests</string>
+    <string name="accept">Accept</string>
 
 </resources>

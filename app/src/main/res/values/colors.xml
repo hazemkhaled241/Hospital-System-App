@@ -20,5 +20,7 @@
     <color name="rectangle_login_color">#0000001F</color>
     <color name="card_view_cd">#fee8da</color>
     <color name="orange">#F36D13</color>
+    <color name="green">#1ad572</color>
+    <color name="yellow">#ec9511</color>
 
 </resources>
