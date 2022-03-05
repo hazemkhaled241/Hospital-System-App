@@ -44,5 +44,6 @@
     <string name="touch_id"><font fgcolor="#FFFFFF">Please touch ID sensor to verify registration</font></string>
     <string name="attendance"><font fgcolor="#FFFFFF">attendance - leaving</font></string>
     <string name="search_for_analysis_employee">Search for Analysis employee</string>
+    <string name="employee">Employee</string>
 
 </resources>
