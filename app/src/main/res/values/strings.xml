@@ -27,6 +27,7 @@
     <string name="create_user">Create User</string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
+    <string name="Case">Case</string>
     <string name="gender">Gender</string>
     <string name="date_of_birth">Date of birth</string>
     <string name="status">Status</string>
@@ -51,5 +52,9 @@
     <string name="lipid_profile">Lipid profile</string>
     <string name="upload_image">Upload Image</string>
     <string name="add_record">Add record</string>
+    <string name="medical_record">Medical Record</string>
+    <string name="you_have_request">You have request</string>
+    <string name="you_have_new_request">You have a new request from the doctor, please  follow up and implement the request as soon as  possible</string>
+    <string name="show_details">Show Details</string>
 
 </resources>
