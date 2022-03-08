@@ -119,4 +119,14 @@
         android:name="com.example.medical.RequestMedicalMeasurement.MedicalRecordFragment"
         android:label="fragment_medical_record"
         tools:layout="@layout/fragment_medical_record" />
+    <fragment
+        android:id="@+id/nurseCallsFragment"
+        android:name="com.example.medical.Nurse.NurseCallsFragment"
+        android:label="fragment_nurse_calls"
+        tools:layout="@layout/fragment_nurse_calls" />
+    <fragment
+        android:id="@+id/nurseCaseDetailsFragment"
+        android:name="com.example.medical.Nurse.NurseCaseDetailsFragment"
+        android:label="fragment_nurse_case_details"
+        tools:layout="@layout/fragment_nurse_case_details" />
 </navigation>

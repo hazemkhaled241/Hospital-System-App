@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nurse.NurseCaseDetailsFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_15sdp"
+            android:src="@drawable/iv_back"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_60sdp"
+            android:fontFamily="@font/poppins_regular"
+            android:padding="@dimen/_6sdp"
+            android:text="@string/case_details"
+            android:textColor="@color/select_doctor_color"
+            android:textSize="@dimen/_16sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:backgroundTint="@color/main"
+            android:text="@string/Case"
+            android:textAllCaps="false" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:text="@string/medical_record"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iv_plus_minus"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iv_red_point" />
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/card_view_cd"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        app:cardCornerRadius="@dimen/_7sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/you_have_request"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/orange"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/you_have_new_request"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/black"
+                android:layout_marginStart="@dimen/_15sdp"
+
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/orange"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:text="@string/show_details"
+                android:textAllCaps="false"
+                app:cornerRadius="@dimen/_7sdp"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginBottom="@dimen/_7sdp"
+                />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_12sdp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_name"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ebrahim Khaled"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="@dimen/_13sdp"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:layout_marginEnd="@dimen/_15sdp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_12sdp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/age"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24 years"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="@dimen/_13sdp"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:layout_marginEnd="@dimen/_15sdp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_12sdp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="254110241423"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="@dimen/_13sdp"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:layout_marginEnd="@dimen/_15sdp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_12sdp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24 . 04 . 2021"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="@dimen/_13sdp"
+            android:gravity="end"
+            android:textColor="@color/black"
+            android:layout_marginEnd="@dimen/_15sdp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_12sdp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="@dimen/_13sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginEnd="@dimen/_13sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Process"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="@dimen/_13sdp"
+                android:gravity="end"
+                android:textColor="@color/black"
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iv_process"
+                android:layout_marginStart="@dimen/_10sdp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/case_description"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details note : Lorem Ipsum is simply dummy
+text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's "
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:textColor="@color/black"
+        android:layout_marginEnd="@dimen/_13sdp"
+
+        />
+
+
+</LinearLayout>
