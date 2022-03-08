@@ -64,5 +64,7 @@
     <string name="add_measurement">Add measurement</string>
     <string name="Caseadd_note">Add Note</string>
     <string name="send">send</string>
+    <string name="call">Call</string>
+    <string name="busy">Busy</string>
 
 </resources>
