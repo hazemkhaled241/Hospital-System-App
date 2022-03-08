@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/caseDetailsAEFragment">
+    app:startDestination="@id/medicalMeasurementFragment">
 
     <fragment
         android:id="@+id/splash1"
@@ -104,4 +104,14 @@
         android:name="com.example.medical.AnalysisEmployee.SpecialistAEFragment"
         android:label="fragment_specialist_a_e"
         tools:layout="@layout/fragment_specialist_a_e" />
+    <fragment
+        android:id="@+id/requestsFragment"
+        android:name="com.example.medical.AnalysisEmployee.RequestsFragment"
+        android:label="fragment_requests"
+        tools:layout="@layout/fragment_requests" />
+    <fragment
+        android:id="@+id/medicalMeasurementFragment"
+        android:name="com.example.medical.RequestMedicalMeasurement.MedicalMeasurementFragment"
+        android:label="fragment_medical_measurement"
+        tools:layout="@layout/fragment_medical_measurement" />
 </navigation>
