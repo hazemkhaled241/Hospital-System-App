@@ -129,4 +129,14 @@
         android:name="com.example.medical.Nurse.NurseCaseDetailsFragment"
         android:label="fragment_nurse_case_details"
         tools:layout="@layout/fragment_nurse_case_details" />
+    <fragment
+        android:id="@+id/specialistManagerFragment"
+        android:name="com.example.medical.Manager.SpecialistManagerFragment"
+        android:label="fragment_specialist_manager"
+        tools:layout="@layout/fragment_specialist_manager" />
+    <fragment
+        android:id="@+id/casesManagerFragment"
+        android:name="com.example.medical.Manager.CasesManagerFragment"
+        android:label="fragment_cases_manager"
+        tools:layout="@layout/fragment_cases_manager" />
 </navigation>
