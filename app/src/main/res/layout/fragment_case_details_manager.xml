@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Nurse.NurseCaseDetailsFragment"
+    tools:context=".Manager.CaseDetailsManagerFragment"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,104 +30,52 @@
             android:textSize="@dimen/_16sdp" />
 
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_12sdp">
-
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_15sdp"
-            android:backgroundTint="@color/main"
-            android:text="@string/Case"
-            android:textAllCaps="false" />
-
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_marginStart="@dimen/_13sdp"
+        android:layout_marginEnd="@dimen/_13sdp"
+        >
         <com.google.android.material.button.MaterialButton
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_15sdp"
-            android:text="@string/medical_record"
+            android:text="@string/_case"
             android:textAllCaps="false"
-            android:textColor="@color/black" />
-
-        <FrameLayout
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="1"
+            />
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_50sdp"
-            android:layout_marginTop="@dimen/_8sdp"
+android:layout_marginStart="@dimen/_10sdp"
+            android:text="@string/medical_record"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
 
-
-            >
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/iv_plus_minus"
-
-                />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/iv_red_point" />
-
-
-        </FrameLayout>
+            android:layout_weight="2"
+            />
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text="@string/medical_measurement"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+           android:layout_marginBottom="@dimen/_5sdp"
+           android:layout_weight="2"
+           />
 
 
     </LinearLayout>
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/card_view_cd"
-        android:layout_marginStart="@dimen/_15sdp"
-        android:layout_marginEnd="@dimen/_15sdp"
-        app:cardCornerRadius="@dimen/_7sdp"
-        android:layout_marginTop="@dimen/_15sdp"
-        >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/you_have_request"
-                android:fontFamily="@font/poppins_semibold"
-                android:textSize="@dimen/_14sdp"
-                android:textColor="@color/orange"
-                android:layout_marginStart="@dimen/_15sdp"
-                android:layout_marginTop="@dimen/_10sdp"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/you_have_new_request"
-                android:fontFamily="@font/poppins_regular"
-                android:textSize="@dimen/_13sdp"
-                android:textColor="@color/black"
-                android:layout_marginStart="@dimen/_15sdp"
-
-                />
-            <com.google.android.material.button.MaterialButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/orange"
-                android:layout_marginStart="@dimen/_15sdp"
-                android:text="@string/show_details"
-                android:textAllCaps="false"
-                app:cornerRadius="@dimen/_7sdp"
-                android:textSize="@dimen/_13sdp"
-                android:layout_marginBottom="@dimen/_7sdp"
-                />
-
-        </LinearLayout>
-
-
-    </androidx.cardview.widget.CardView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

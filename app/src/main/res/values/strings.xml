@@ -67,5 +67,6 @@
     <string name="send">send</string>
     <string name="call">Call</string>
     <string name="busy">Busy</string>
+    <string name="_case">Case</string>
 
 </resources>
