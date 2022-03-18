@@ -69,5 +69,8 @@
     <string name="busy">Busy</string>
     <string name="_case">Case</string>
     <string name="my_profile">My Profile</string>
+    <string name="end_case">End Case</string>
+    <string name="add_nurse">Add Nurse</string>
+    <string name="request">Request</string>
 
 </resources>

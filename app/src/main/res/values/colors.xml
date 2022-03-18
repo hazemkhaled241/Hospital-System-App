@@ -25,5 +25,6 @@
     <color name="yellow">#ec9511</color>
     <color name="my_profile_color">#FCFCFC</color>
     <color name="my_profile_color_information">#343434</color>
+    <color name="end_case">#e63a3a</color>
 
 </resources>

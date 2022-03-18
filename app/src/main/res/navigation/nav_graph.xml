@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/myProfileHrFragment">
+    app:startDestination="@id/caseDetailsDoctorCaseFragment">
 
     <fragment
         android:id="@+id/splash1"
@@ -179,4 +179,19 @@
         android:name="com.example.medical.receptionist.MyProfileReceptionistFragment"
         android:label="fragment_my_profile_receptionist"
         tools:layout="@layout/fragment_my_profile_receptionist" />
+    <fragment
+        android:id="@+id/callsCaseDoctorFragment"
+        android:name="com.example.medical.CaseDoctor.CallsCaseDoctorFragment"
+        android:label="fragment_calls_case_doctor"
+        tools:layout="@layout/fragment_calls_case_doctor" />
+    <fragment
+        android:id="@+id/caseDetailsDoctorCaseFragment"
+        android:name="com.example.medical.CaseDoctor.CaseDetailsDoctorCaseFragment"
+        android:label="fragment_case_details_doctor_case"
+        tools:layout="@layout/fragment_case_details_doctor_case" />
+    <fragment
+        android:id="@+id/specialistDoctorCaseFragment"
+        android:name="com.example.medical.CaseDoctor.SpecialistDoctorCaseFragment"
+        android:label="fragment_specialist_doctor_case"
+        tools:layout="@layout/fragment_specialist_doctor_case" />
 </navigation>

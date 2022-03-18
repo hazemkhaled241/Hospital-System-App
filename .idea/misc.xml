@@ -36,6 +36,7 @@
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_cancell_request.xml" value="0.20364583333333333" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_case.xml" value="0.152" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_case_details.xml" value="0.176" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_case_details_doctor_case.xml" value="0.16944444444444445" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_case_details_manager.xml" value="0.16944444444444445" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_cases_manager.xml" value="0.16944444444444445" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_create_call.xml" value="0.25416666666666665" />
@@ -58,7 +59,7 @@
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_requests.xml" value="0.16944444444444445" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_select_doctor.xml" value="0.264" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_select_doctor_manager.xml" value="0.16944444444444445" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_select_nurse.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_select_nurse.xml" value="0.2" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_specialist.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_specialist_a_e.xml" value="0.16944444444444445" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_specialist_doctor_case.xml" value="0.16944444444444445" />
