@@ -72,5 +72,7 @@
     <string name="end_case">End Case</string>
     <string name="add_nurse">Add Nurse</string>
     <string name="request">Request</string>
+    <string name="select_nurse">Select Nurse</string>
+    <string name="search_for_nurse">Search For Nurse</string>
 
 </resources>
