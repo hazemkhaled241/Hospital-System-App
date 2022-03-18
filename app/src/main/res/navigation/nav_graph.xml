@@ -199,4 +199,9 @@
         android:name="com.example.medical.CaseDoctor.SelectNurseDoctorCaseFragment"
         android:label="fragment_select_nurse_doctor_case"
         tools:layout="@layout/fragment_select_nurse_doctor_case" />
+    <fragment
+        android:id="@+id/casesDoctorCaseFragment"
+        android:name="com.example.medical.CaseDoctor.CasesDoctorCaseFragment"
+        android:label="fragment_cases_doctor_case"
+        tools:layout="@layout/fragment_cases_doctor_case" />
 </navigation>
