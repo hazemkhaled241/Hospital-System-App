@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/medicalRecordManagerFragment">
+    app:startDestination="@id/myProfileHrFragment">
 
     <fragment
         android:id="@+id/splash1"
@@ -154,4 +154,19 @@
         android:name="com.example.medical.Manager.MedicalRecordManagerFragment"
         android:label="fragment_medical_record_manager"
         tools:layout="@layout/fragment_medical_record_manager" />
+    <fragment
+        android:id="@+id/employeeListManagerFragment"
+        android:name="com.example.medical.Manager.EmployeeListManagerFragment"
+        android:label="fragment_employee_list_manager"
+        tools:layout="@layout/fragment_employee_list_manager" />
+    <fragment
+        android:id="@+id/selectDoctorManagerFragment"
+        android:name="com.example.medical.Manager.SelectDoctorManagerFragment"
+        android:label="fragment_select_doctor_manager"
+        tools:layout="@layout/fragment_select_doctor_manager" />
+    <fragment
+        android:id="@+id/myProfileHrFragment"
+        android:name="com.example.medical.HrEmployee.MyProfileHrFragment"
+        android:label="fragment_my_profile_hr"
+        tools:layout="@layout/fragment_my_profile_hr" />
 </navigation>

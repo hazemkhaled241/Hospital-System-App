@@ -68,5 +68,6 @@
     <string name="call">Call</string>
     <string name="busy">Busy</string>
     <string name="_case">Case</string>
+    <string name="my_profile">My Profile</string>
 
 </resources>
