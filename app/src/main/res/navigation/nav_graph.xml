@@ -169,4 +169,14 @@
         android:name="com.example.medical.HrEmployee.MyProfileHrFragment"
         android:label="fragment_my_profile_hr"
         tools:layout="@layout/fragment_my_profile_hr" />
+    <fragment
+        android:id="@+id/myProfileManagerFragment"
+        android:name="com.example.medical.Manager.MyProfileManagerFragment"
+        android:label="fragment_my_profile_manager"
+        tools:layout="@layout/fragment_my_profile_manager" />
+    <fragment
+        android:id="@+id/myProfileReceptionistFragment"
+        android:name="com.example.medical.receptionist.MyProfileReceptionistFragment"
+        android:label="fragment_my_profile_receptionist"
+        tools:layout="@layout/fragment_my_profile_receptionist" />
 </navigation>
