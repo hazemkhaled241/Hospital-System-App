@@ -13,6 +13,7 @@
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1365" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/iv_doctor.xml" value="0.1615" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/iv_download.xml" value="0.1295" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/iv_finished.xml" value="0.1555" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/iv_plus.xml" value="0.16" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/login_rectangle.xml" value="0.1095" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/drawable/material_on_background_disabled.xml" value="0.1435" />
@@ -69,10 +70,12 @@
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_splash1.xml" value="0.264" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_splash2.xml" value="0.264" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_start_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_tasks_manager.xml" value="0.16944444444444445" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_touch_id_sensor.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/position_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/request_item.xml" value="0.16944444444444445" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/requests_item.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/task_item.xml" value="0.16944444444444445" />
       </map>
     </option>
   </component>

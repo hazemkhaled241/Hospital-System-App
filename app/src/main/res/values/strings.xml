@@ -38,7 +38,9 @@
     <string name="select_analysis_employee">Select Analysis employee</string>
     <string name="search_for_doctor">Search For Doctor</string>
     <string name="calls"><font fgcolor="#FFFFFF">Calls</font></string>
+    <string name="finished"><font fgcolor="#06e173">Finished</font></string>
     <string name="tasks"><font fgcolor="#FFFFFF">Tasks</font></string>
+    <string name="tasks_black">Tasks</string>
     <string name="reports"><font fgcolor="#FFFFFF">Reports</font></string>
     <string name="cases"><font fgcolor="#FFFFFF">Cases</font></string>
     <string name="cases_black">Cases</string>
