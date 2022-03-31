@@ -76,5 +76,9 @@
     <string name="request">Request</string>
     <string name="select_nurse">Select Nurse</string>
     <string name="search_for_nurse">Search For Nurse</string>
+    <string name="tasks_details">Tasks Details</string>
+    <string name="description">Description</string>
+    <string name="to_do">To do</string>
+    <string name="add">Add</string>
 
 </resources>
