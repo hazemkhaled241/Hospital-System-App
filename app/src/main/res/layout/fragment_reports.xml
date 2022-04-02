@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Manager.TaskDetailsManagerFragment"
-    android:orientation="vertical">
+    tools:context=".CreateReport.CreateReportManagerFragment">
 
     <LinearLayout
         android:id="@+id/linearLayout10"
@@ -31,7 +30,7 @@
             android:layout_marginStart="@dimen/_60sdp"
             android:fontFamily="@font/poppins_regular"
             android:padding="@dimen/_6sdp"
-            android:text="@string/tasks_details"
+            android:text="@string/create_report"
             android:textColor="@color/select_doctor_color"
             android:textSize="@dimen/_16sdp"
 
@@ -122,58 +121,19 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <LinearLayout
-        android:id="@+id/linearLayout9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3"
-        android:layout_marginTop="@dimen/_5sdp"
-        >
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_25sdp"
-            android:text="@string/to_do"
-            android:textColor="@color/black"
-            android:textSize="@dimen/_14sdp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_190sdp"
-            android:drawableStart="@drawable/iv_add_1"
-            android:text="@string/add"
-            android:textColor="@color/black"
-            android:textSize="@dimen/_14sdp" />
-
-
-    </LinearLayout>
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
-        tools:listitem="@layout/to_do_item" />
     <FrameLayout
         android:id="@+id/frameLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_25sdp"
         android:layout_marginEnd="@dimen/_25sdp"
-        android:layout_marginBottom="@dimen/_10sdp"
         android:background="@drawable/add_medical_record__frame"
         android:padding="40dp"
-
+android:layout_marginTop="@dimen/_50sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerView">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -211,15 +171,17 @@
         android:id="@+id/materialButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
         android:backgroundTint="@color/main"
         android:padding="@dimen/_13sdp"
-        android:text="@string/send"
+        android:text="@string/create_report"
         android:textAllCaps="false"
         app:cornerRadius="@dimen/_7sdp"
-        android:layout_marginStart="@dimen/_15sdp"
-        android:layout_marginEnd="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="@dimen/_7sdp"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout3" />
- </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
