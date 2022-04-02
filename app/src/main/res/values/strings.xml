@@ -42,6 +42,7 @@
     <string name="tasks"><font fgcolor="#FFFFFF">Tasks</font></string>
     <string name="tasks_black">Tasks</string>
     <string name="reports"><font fgcolor="#FFFFFF">Reports</font></string>
+    <string name="black_reports">Reports</string>
     <string name="cases"><font fgcolor="#FFFFFF">Cases</font></string>
     <string name="cases_black">Cases</string>
     <string name="attendance_registered"><font fgcolor="#FFFFFF">Your attendance has been registered</font></string>
