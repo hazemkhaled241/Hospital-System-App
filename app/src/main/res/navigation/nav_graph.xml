@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/tasksFragment">
+    app:startDestination="@id/createCallFragment2">
 
     <fragment
         android:id="@+id/splash1"
@@ -234,4 +234,9 @@
         android:name="com.example.medical.TasksDetails.TasksFragment"
         android:label="fragment_tasks"
         tools:layout="@layout/fragment_tasks" />
+    <fragment
+        android:id="@+id/createCallFragment2"
+        android:name="com.example.medical.CallsAndNotification.CreateCallFragment"
+        android:label="fragment_create_call2"
+        tools:layout="@layout/fragment_create_call2" />
 </navigation>
