@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/taskDetailsManagerFragment">
+    app:startDestination="@id/createReportManagerFragment">
 
     <fragment
         android:id="@+id/splash1"
@@ -214,4 +214,14 @@
         android:name="com.example.medical.Manager.TasksManagerFragment"
         android:label="fragment_tasks_manager"
         tools:layout="@layout/fragment_tasks_manager" />
+    <fragment
+        android:id="@+id/createReportFragment"
+        android:name="com.example.medical.CreateReport.CreateReportFragment"
+        android:label="fragment_create_report"
+        tools:layout="@layout/fragment_create_report" />
+    <fragment
+        android:id="@+id/createReportManagerFragment"
+        android:name="com.example.medical.CreateReport.CreateReportManagerFragment"
+        android:label="fragment_reports"
+        tools:layout="@layout/fragment_reports" />
 </navigation>
