@@ -56,7 +56,7 @@
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_my_profile_hr.xml" value="0.2" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_my_profile_manager.xml" value="0.16944444444444445" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_my_profile_receptionist.xml" value="0.16944444444444445" />
-        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_new_user.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_new_user.xml" value="0.17753623188405798" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_nurse.xml" value="0.152" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_nurse_calls.xml" value="0.16944444444444445" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/Medical/app/src/main/res/layout/fragment_nurse_case_details.xml" value="0.16944444444444445" />
@@ -88,7 +88,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
