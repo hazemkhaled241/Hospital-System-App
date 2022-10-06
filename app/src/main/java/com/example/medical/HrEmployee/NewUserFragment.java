@@ -6,6 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -18,6 +20,7 @@ import com.example.medical.Networks.RegisterRequest;
 import com.example.medical.Networks.RegisterResponse;
 import com.example.medical.Networks.RetrofitClint;
 import com.example.medical.Networks.ServerError;
+import com.example.medical.Networks.SharedPref;
 import com.example.medical.R;
 import com.example.medical.databinding.FragmentNewUserBinding;
 import com.google.gson.Gson;
@@ -70,8 +73,10 @@ String dateOfBirth,phoneNumber,firstName,lastName,gender,specialist,status,email
                     && status!=null&&address!=null
                     && phoneNumber!=null&& specialist!=null
                      ) {
+
                  registerRequest = new RegisterRequest(email,firstName,lastName,password, gender, dateOfBirth, status, address, phoneNumber, specialist, specialist);
-               signup(registerRequest);
+
+                 signup(registerRequest);
 
                 }
             else{
@@ -94,7 +99,6 @@ String dateOfBirth,phoneNumber,firstName,lastName,gender,specialist,status,email
                 if(response.isSuccessful()){
 //                assert response.body() != null;
                 if(response.body().isSuccess()){
-                    Toast.makeText(getActivity().getApplicationContext(),registerReq.getFirstName() , Toast.LENGTH_SHORT).show();
 
                 }
                 else{

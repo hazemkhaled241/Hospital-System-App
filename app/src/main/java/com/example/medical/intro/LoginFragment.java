@@ -6,6 +6,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,8 +17,11 @@ import android.widget.Toast;
 import com.example.medical.Networks.LoginRequest;
 import com.example.medical.Networks.LoginResponse;
 import com.example.medical.Networks.RetrofitClint;
+import com.example.medical.Networks.SharedPref;
 import com.example.medical.R;
 import com.example.medical.databinding.FragmentLoginBinding;
+
+import java.util.Locale;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -66,8 +71,22 @@ String email,password,deviceToken;
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                 if (response.isSuccessful()){
                     if(response.body().isSuccess()){
-                        Toast.makeText(requireContext(), "Welcome"+loginRequest.getEmail(), Toast.LENGTH_SHORT).show();
+                      String userName=response.body().getConfirmationData().getFirstName()+" "+response.body().getConfirmationData().getLastName();
 
+                        SharedPref.writeString("UserName",userName);
+                        NavController navController = Navigation.findNavController(requireView());
+                        if(response.body().getConfirmationData().getSpecialist().toLowerCase(Locale.ROOT).equals("doctor"))
+                            navController.navigate(R.id.action_loginFragment_to_specialistDoctorCaseFragment);
+                        else if (response.body().getConfirmationData().getSpecialist().toLowerCase(Locale.ROOT).equals("receptionist"))
+                            navController.navigate(R.id.action_loginFragment_to_receptionistFragment);
+                        else if (response.body().getConfirmationData().getSpecialist().toLowerCase(Locale.ROOT).equals("nurse"))
+                            navController.navigate(R.id.action_loginFragment_to_nurseFragment);
+                        else if (response.body().getConfirmationData().getSpecialist().toLowerCase(Locale.ROOT).equals("manager"))
+                            navController.navigate(R.id.action_loginFragment_to_specialistManagerFragment);
+                        else if (response.body().getConfirmationData().getSpecialist().toLowerCase(Locale.ROOT).equals("hr"))
+                            navController.navigate(R.id.action_loginFragment_to_specialistFragment);
+                        else if (response.body().getConfirmationData().getSpecialist().toLowerCase(Locale.ROOT).equals("analysis"))
+                            navController.navigate(R.id.action_loginFragment_to_specialistAEFragment);
                     }
                     else{
                         String errorStatus=response.body().getErrorMessage();

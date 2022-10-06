@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/myProfileManagerFragment">
 
     <fragment
         android:id="@+id/splash1"
@@ -18,7 +18,11 @@
         android:id="@+id/splash2"
         android:name="com.example.medical.intro.splash2"
         android:label="fragment_splash2"
-        tools:layout="@layout/fragment_splash2" />
+        tools:layout="@layout/fragment_splash2" >
+        <action
+            android:id="@+id/action_splash2_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
     <fragment
         android:id="@+id/cancelRequestFragment2"
         android:name="com.example.medical.receptionist.cancelRequestFragment"
@@ -28,7 +32,29 @@
         android:id="@+id/loginFragment"
         android:name="com.example.medical.intro.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_receptionistFragment"
+            app:destination="@id/receptionistFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_nurseFragment"
+            app:destination="@id/nurseFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_specialistAEFragment"
+            app:destination="@id/specialistAEFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_specialistManagerFragment"
+            app:destination="@id/specialistManagerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_specialistDoctorCaseFragment"
+            app:destination="@id/specialistDoctorCaseFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_specialistFragment"
+            app:destination="@id/specialistFragment" />
+        <argument
+            android:name="username"
+            app:argType="string" />
+    </fragment>
     <fragment
         android:id="@+id/startUpFragment"
         android:name="com.example.medical.intro.StartUpFragment"
@@ -48,7 +74,11 @@
         android:id="@+id/receptionistFragment"
         android:name="com.example.medical.receptionist.ReceptionistFragment"
         android:label="fragment_receptionist"
-        tools:layout="@layout/fragment_receptionist" />
+        tools:layout="@layout/fragment_receptionist" >
+        <action
+            android:id="@+id/action_receptionistFragment_to_receptionistCallsFragment"
+            app:destination="@id/receptionistCallsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/nurseFragment"
         android:name="com.example.medical.Nurse.NurseFragment"
@@ -76,7 +106,7 @@
         tools:layout="@layout/fragment_registered" />
     <fragment
         android:id="@+id/specialistFragment"
-        android:name="com.example.medical.HrEmployee.SpecialistFragment"
+        android:name="com.example.medical.HrEmployee.SpecialistHRFragment"
         android:label="fragment_specialist"
         tools:layout="@layout/fragment_specialist" />
     <fragment
@@ -239,4 +269,9 @@
         android:name="com.example.medical.CallsAndNotification.CreateCallFragment"
         android:label="fragment_create_call2"
         tools:layout="@layout/fragment_create_call2" />
+    <fragment
+        android:id="@+id/receptionistCallsFragment"
+        android:name="com.example.medical.receptionist.ReceptionistCallsFragment"
+        android:label="fragment_receptionist_calls"
+        tools:layout="@layout/fragment_receptionist_calls" />
 </navigation>

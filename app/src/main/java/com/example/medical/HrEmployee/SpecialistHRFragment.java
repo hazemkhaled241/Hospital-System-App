@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import com.example.medical.R;
 
 
-public class SpecialistFragment extends Fragment {
+public class SpecialistHRFragment extends Fragment {
 
 
     @Override

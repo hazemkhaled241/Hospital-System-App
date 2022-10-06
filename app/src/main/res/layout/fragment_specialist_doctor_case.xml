@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_regular"
                 android:paddingStart="@dimen/_5sdp"
-                android:text="Specialist-Position"
+                android:text="Specialist-Doctor"
                 android:textColor="#22C7B8"
                 android:textSize="@dimen/_12sdp" />
 
